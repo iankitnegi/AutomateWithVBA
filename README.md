@@ -35,6 +35,13 @@ RANGE = OBJECT
   - COPY
   - CUT
   - DELETE
+___________________________________________________
+?ActiveWorkbook.Name  
+Book1  
+?ActiveWorkbook.ActiveSheet.Name  
+Sheet1  
 
+ActiveWorkbook.ActiveSheet.Name = "Weekly Report"  
+ActiveSheet.Range("A2").Value = "Hello World"  
 
 
